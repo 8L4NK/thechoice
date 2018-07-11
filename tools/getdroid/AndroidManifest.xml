@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<manifest xmlns:a='http://schemas.android.com/apk/res/android' package='com.example.reversedroid' a:versionCode='0' a:versionName='0'>
+<uses-permission a:name="android.permission.INTERNET"/>
+    <application a:label='A Hello Android'>
+        <activity a:name='com.example.reversedroid.MainActivity'>
+             <intent-filter>
+                <category a:name='android.intent.category.LAUNCHER'/>
+                <action a:name='android.intent.action.MAIN'/>
+             </intent-filter>
+        </activity>
+    </application>
+</manifest>
